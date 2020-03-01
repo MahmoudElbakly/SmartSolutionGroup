@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Smart Solution Group</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="images/transperant.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Asap+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="css/lightslider.css">
+	<link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style>
+         @media all and (min-width:800px) and (max-width:1200px)
+        {
+            #left_header_content
+            {
+                display: block !important;
+            }
+        }
+    @media all and (max-width:800px)
+    {
+        #left_header_content
+        {
+            display: none;
+        }
+        #b1
+        {
+            display: block;
+            width: 50px;
+            
+        }
+
+        #content-slider img
+        {
+            width: 100px;
+            height: auto;
+        }
+
+        #logo
+        {
+            width: 200px;
+        }
+
+       
+
+    }
+    </style>
+</head>
+<body onscroll="load()"  data-spy="scroll" data-target=".navbar" data-offset="50">
+   <div id="page_container_section1" class="container-fluid">
+       <div id="overlay" >
+            <div id="header" class="container-fluid row">
+                    <div id="logo" class="col-lg-4 " >
+                        <img src="images/logo.png" class="logo_img" alt="logo">
+    
+                    </div>
+                    <button id="b1" class="navbar-toggler col-lg-1 ml-auto" type="button" data-toggle="collapse" data-target="#myNavbar">
+                            <i class="fas fa-bars" style="color:white;"></i>
+                    </button>
+
+                    
+                    <div id="left_header_content" class="col-lg-8 view  ">
+                            <nav class="navbar navbar-expand-sm " id="myNavbar">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a id="home_link"class="nav-link active txt-size" href="#page_container_section1">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link txt-size s " href="#About_Us">About US</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link txt-size" href="#services">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link txt-size" href="#portfolio">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link txt-size" href="#our_clients">Clients</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link txt-size" href="#contact_us">Contact</a>
+                                    </li>
+                                    <li class="nav-item">
+
+                                        <button class ="btn bg-transparent txt-size" id="btn_tranlate" type="button"> عربي </button>
+                                    </li>    
+                                </ul>
+
+                                    
+                            </nav>
+    
+                    </div>
+    
+                </div>
+                
+
+
+
+                <nav id="links" class="navbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link t" href="#"><i class="fab fa-twitter "></i></a>
+                                <hr style="margin: 0%; color:black;">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link f" href="#"><i class="fab fa-facebook-f "></i></a>
+                                <hr style="margin: 0%; color:black;">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link i" href="#"><i class="fab fa-instagram "></i></a>
+                                <hr style="margin: 0%; color:black;">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link g" href="#"><i class="fab fa-google-plus-g "></i></a>
+                                <hr style="margin: 0%; color:black;">
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link l" href="#"><i class="fab fa-linkedin-in "></i></a>
+                            </li>
+                        </ul>
+                </nav>
+
+
+                <div class="item">
+                        
+                    <div class="our_vision mx-auto">
+                       
+                        <ul id="sliderr" class="content-slider">
+
+                            <li>
+                                <div id="vision1" class=" size_of_font mx-auto">
+                                    <h1>We are professional</h1>
+                                    <h4>Welcome To our company</h4>
+                                </div> 
+                            </li>  
+                            <li>
+                                <div id="vision2" class=" size_of_font  mx-auto">
+                                    <h2>Creative Agency for ambitious projects</h2>
+                                </div>   
+                            </li>
+                            <li>    
+                                <div id="vision3"  class=" size_of_font mx-auto">
+                                    <h2>Services between your hand </h2>
+                                    <p>We offer a lot of services that match you .. Just<br>  contact us</p>
+                                </div>
+                            </li>
+                            <li>    
+                                <div id="vision4"  class=" size_of_font mx-auto">
+                                    <h2>Smart Solutions Group</h2>
+                                </div>
+                            </li>    
+                        </ul>
+
+                    </div>
+                </div>
+                  
+                                
+                           
+                            
+                
+            <button class="btn" id="top" onclick="back_top()"><i class="fas fa-chevron-up"></i></button>
+                
+       </div>
+        
+
+    </div>
+
+
+    <!--#############################################################################################################-->
+    <!-- section2-->
+    <div id="About_Us" class="container-fluid ">
+        <div id="overlay1" class="container-fluid">
+
+            <div id="information_about_us" class="row">
+                <div class="text-center col-lg-12 pt-5 ">
+                        <h3 class="font_s">About Us</h3>
+                        <div class="d-flex justify-content-center">
+                            <hr style=" border: 2px solid black;width: 45px;margin: 0">
+                            <hr style=" border: 2px solid #1b81ac;width: 30px;margin: 0">
+                            <hr style=" border: 2px solid black;width: 45px;margin: 0">
+                        </div>
+                        <p class="pt-3">We believe that we can change culture and make the world a better place. The objective is attained by producing quality products through which &nbsp; &nbsp;values are conveyed <br> and that will infleunce the society</p>
+                        <p class="pt-2"> Smart Solutions Group provide profeesional IT services. Our main branch in KSA -Jeddah and our development house in Egypt ,cairo Nozha. </p>
+                        <p class="pt-2"> We have many partnerships with many Companies and Organization outside KSA and Egypt </p>
+                </div>
+            </div>
+
+            <div id="info-card"class=" row justify-content-center mb-5">
+                <div class="card col-sm-3 mr-3 ">
+                    <img class="card-img-top bg-light img_h" src="images/1.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                          <h4 class="card-title title text-center">Solution & Time</h4>
+                          <p class="card-text" style="font-size:80%;">Providing unique solutions that make it easy to deliver your project idea to the user while maintaining the speed of execution and maintaining time.</p>
+                     </div>
+                </div>
+
+                <div class="card col-sm-3">
+                        <img class="card-img-top bg-light img_h" src="images/2.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                              <h4 class="card-title title text-center">Protection and Privacy</h4>
+                              <p class="card-text" style="font-size:80%;"> Protecting all of your customer projects without compromising any of them can say that protecting and maintaining the privacy of our customers is our primary concern. </p>
+                              
+                         </div>
+                </div>
+
+                <div class="card col-sm-3 ml-3">
+                        <img class="card-img-top bg-light img_h" src="images/3.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                              <h4 class="card-title title text-center">Checking finished projects</h4>
+                              <p class="card-text" style="font-size:80%;"> Check the finished projects and follow up the clients' work always to ensure that they work well without any problems and provide tips via email or delivery of reports </p>
+                             
+                         </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <!--########################################################################################-->
+
+    <!--section3-->
+    <div id="services" class="container-fluid">
+        <div id="services_header" class="row">
+            <div class="text-center col-lg-12 pt-5 ">
+                    <h3 class="font_s">Services</h3>
+                    <div class="d-flex justify-content-center">
+                        <hr style=" border: 2px solid black;width: 40px;margin: 0">
+                        <hr style=" border: 2px solid #1b81ac;width: 30px;margin: 0">
+                        <hr style=" border: 2px solid black;width: 40px;margin: 0">
+                    </div>
+                    <p class="pt-3">Our company provides many services to you.</p>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-2">
+                <div class="media col-lg-3">
+                        <img src="/images/software.png" class="service_img mr-3" alt="">
+                        <div class="media-body">
+                          <h4><a class="font_view" href="">Software and automation systems development</a></h4>
+                          <p>we create digital solutions for international corporations, small businesses and other organisations with an aim to open up new possibilities for expansion, process automatisation, and continuous improvement. We are a team of experienced developers, creators, designers and project managers you can rely on.</p> 
+                        </div>     
+                </div>
+                <div class="media col-lg-3">
+                        <img src="/images/coding.png" class="service_img mr-3"alt="">
+                        <div class="media-body">
+                          <h4><a class="font_view" href="">Web design and development</a></h4>
+                          <p>We provide expert web application development and web design services to our clients. Our experts are trained, certified and experienced across a variety of website platforms.</p> 
+                        </div>     
+                </div>
+                <div class="media col-lg-3">
+                        <img src="/images/smartphone.png" class="service_img mr-3"alt="">
+                        <div class="media-body">
+                          <h4><a class="font_view" href="">Mobile applications development</a></h4>
+                          <p>Design and develop advanced, feature rich Android and IOS mobile applications that meet your unique business requirements. We work across the application lifecycle utilizing agile development processes to ensure customers get intuitive, robust applications delivered to agreed timescales.</p> 
+                        </div>     
+                </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+                <div class="media col-lg-3">
+                        <img src="/images/network.png" class="service_img mr-3"alt="">
+                        <div class="media-body">
+                          <h4><a class="font_view" href="">Digital and social media marketing</a></h4>
+                          <p> We use various online platforms (Facebook, Instagram, Twitter, LinkedIn, Google Adwords & etc)to market and raise awareness for your project Put simply, we make sure you are in the right place at the right time.</p> 
+                        </div>     
+                </div>
+
+                <div class="media col-lg-3">
+                        <img src="/images/consulting.png" class="service_img mr-3"alt="">
+                        <div class="media-body">
+                          <h4><a class="font_view" href="">Consultation and on-site training services</a></h4>
+                          <p> We provide strategic consulting for decision support, organisational improvement and operative execution. We advise top management in areas of project management and procurement.Effective development and execution of large and complex capital investments requires a broad understanding of the political, technical.</p> 
+                        </div>     
+                </div>
+
+        </div>
+
+
+    </div>
+     <!--########################################################################################-->
+
+    <!--section4-->
+
+    <div id="portfolio" class=" container-fluid">
+
+        <div id="portfolio_header" class="row">
+                <div class="text-center col-lg-12 pt-5 text-center ">
+                    <h3 class="" style="color:white; font-size:30px;">Our Portfolio</h3>
+                    <div class="d-flex justify-content-center">
+                        <hr style=" border: 2px solid white;width: 40px;margin: 0">
+                        <hr style=" border: 2px solid #2a3666;width: 30px;margin: 0">
+                        <hr style=" border: 2px solid white;width: 40px;margin: 0">
+                    </div>
+                </div>
+                        
+        </div>
+        <div class="container mb-5">
+
+            <ul id="filters" class="clearfix d-flex justify-content-center mt-4 mb-4">
+                <li><span class="filter active" data-filter=".mobile, .web">All</span></li>
+                <li><span class="filter" data-filter=".web">WEB</span></li>
+                <li><span class="filter" data-filter=".mobile">MOBILE</span></li>
+
+            </ul>
+
+            <div id="portfoliolist">
+                
+                <div class="portfolio web" data-cat="web">
+                    <div class="portfolio-wrapper">				
+                        <img  src="images/TAKHFEEDMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio mobile" data-cat="mobile">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/MeraLaundryMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="portfolio mobile" data-cat="mobile">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/MoadiiWebMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio mobile" data-cat="mobile">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/moadiiIOSMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio web" data-cat="web">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/MoadiiAndroidMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio mobile" data-cat="mobile">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/owlsMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio web" data-cat="mobile">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/OwlsWebMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio mobile" data-cat="mobile">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/RoshettaMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio web" data-cat="web">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/albabtien.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio web" data-cat="web">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/isTabukMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio web" data-cat="web">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/fullScreenMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio web" data-cat="web">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/egyptportfolio3.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio web" data-cat="web">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/bmMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio web" data-cat="web">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/AradEl5eerMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio web" data-cat="web">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/educationMinistryKSAMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio web" data-cat="web">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/AsuitGovernomentMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio web" data-cat="web">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/AbdelShafeeMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio web" data-cat="web">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/ScienceAzharMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio web" data-cat="web">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/nhbasMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio web" data-cat="web">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/CanadaDoctorAppMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio web" data-cat="web">
+                    <div class="portfolio-wrapper">				
+                        <img src="images/KEYRPTOMain.jpg" alt="" />
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Bird Document</a>
+                                <span class="text-category">Logo</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--########################################################################################-->
+
+    <!--section5-->
+
+    <div id="our_clients" class="container-fluid">
+        <div id="clients_header" class="row">
+                <div class="text-center col-lg-12 pt-5 text-center ">
+                    <h3 class="" style="color:white; font-size:30px;">Our Clients</h3>
+                    <div class="d-flex justify-content-center">
+                        <hr style=" border: 2px solid white;width: 40px;margin: 0">
+                        <hr style=" border: 2px solid #2a3666;width: 30px;margin: 0">
+                        <hr style=" border: 2px solid white;width: 40px;margin: 0">
+                    </div>
+                </div>
+                        
+        </div>
+        <div class="container mt-5">
+                <div class="item">
+                        <ul id="content-slider" class="content-slider text-center">
+                            <li>
+                                <img src="images/slider/client1.png">
+                            </li>
+                            <li>
+                                <img src="images/slider/client-2.png">
+                            </li>
+                            <li>
+                                <img src="images/slider/client-3.png">
+                            </li>
+                            <li>
+                                <img src="images/slider/client-4.png">
+                            </li>
+                            <li>
+                                <img src="images/slider/client-5.png">
+                            </li>
+                            <li>
+                                <img src="images/slider/client-6.png">
+                            </li>
+                            <li>
+                                <img src="images/slider/client-7.png">
+                            </li>
+                            <li>
+                                <img src="images/slider/client-8.png">
+                            </li>
+                            <li>
+                                <img src="images/slider/client-9.png">
+                            </li>
+                            <li>
+                                <img src="images/slider/client-10.png">
+                            </li>
+                            <li>
+                                <img src="images/slider/client-11.png">
+                            </li>
+                            <li>
+                                <img src="images/slider/client-12.png">
+                            </li>
+                        </ul>
+                    </div>
+    
+
+
+        </div>
+        
+    </div>
+    <!--########################################################################################-->
+
+    <!--section6-->
+    <div id="contact_us" class="container-fluid mt-5">
+        <div id="contact" class="row">
+            <div id="left" class="col-lg-6">
+                <div id="clients_header">
+                        <div class="text-center col-lg-12 pt-5 text-center ">
+                            <h3 class="" style="color:black; font-size:30px;">Contact Us</h3>
+                            <div class="d-flex justify-content-center">
+                                <hr style=" border: 2px solid gray;width: 45px;margin: 0">
+                                <hr style=" border: 2px solid #2a3666;width: 35px;margin: 0">
+                                <hr style=" border: 2px solid gray;width: 45px;margin: 0">
+                                <br>
+                                
+                            </div>
+                            <p>Keep in touch</p>
+                        </div>
+                                
+                </div>
+
+
+                <div class="mt-5">
+                   <p class="pl-5 icons_h">
+                       <i class="fa fa-phone icon-bg text-center"></i>
+                        <b>Phone Number</b>
+                    </p>
+                    <p class="phone1"><b key="landLine"> Land Line : </b>
+                        <a href="" key="landLinePhoneNum">+20 2 – 24178434</a>
+                    </p>
+                    
+                    <p class="phone1">
+                        <b  key="cellPhone"> Cell Phone : </b>
+                        <a  href="">+2 - 01030868082</a><br>
+                        <a  href="" id="phonenumb" style="padding-left:16%;">+2 - 01030868084</a>
+                    </p>
+
+                    <p class="pl-5 icons_h">
+                            <i class="far fa-envelope icon-bg text-center"></i>
+                            <b>Email</b>
+                    </p>
+                    <p>
+                        <a class="phone1" href="">info@smartslngroup.com</a>
+                    </p>
+
+                    <p class="pl-5 mt-5 icons_h">
+                        <i class="fas fa-map-marker-alt icon-bg text-center"></i>    
+                        <b>Address</b>
+                    </p>
+
+                    <span class="mt-5">
+                        <p style="display:inline; padding-left:20%;"><b> KSA : </b></p>
+                        <p style="display:inline;">El-Zahraa District, Jeddah.</p>
+                        <br>
+                        <p style="display:inline; padding-left:20%;"><b>Egypt : </b></p>
+                        <p style="display:inline;">9,Elnozha st, Cairo.</p>
+                    </span>
+
+
+                    <p class="pl-5 mt-5 icons_h">
+                            <i class="fas fa-user icon-bg text-center"></i>    
+                            <b>Partners</b>
+                    </p>
+
+
+                    <span class="mt-5">
+                            <span style="padding-left:20%;"></span>
+                            <img src="images/smartCube.png" class="partners_img" alt="">
+                            <p style="display:inline;"><b>Smart Cube Solution : </b>Asyut,Egypt.</p>
+                            <br>
+                            <div class="pt-2">
+                                <span style="padding-left:20%;"></span>
+                                <img src="images/moadii.png" class="partners_img" alt="">
+                                <p style="display:inline;"><b>Moadii Technologies : </b>Jeddah, KSA.</p>
+                            </div>
+                    </span>
+                </div>
+            </div>
+
+
+            <div id="right" class="col-lg-6">
+                    <div id="clients_header">
+                        <div class="text-center col-lg-12 pt-5 text-center ">
+                            <h3 class="" style="color:black; font-size:30px;">Location</h3>
+                            <div class="d-flex justify-content-center">
+                                <hr style=" border: 2px solid gray;width: 45px;margin: 0">
+                                <hr style=" border: 2px solid #2a3666;width: 35px;margin: 0">
+                                <hr style=" border: 2px solid gray;width: 45px;margin: 0">
+                                <br>
+                                
+                            </div>
+                            <p>Keep in touch</p>
+                        </div>
+                                    
+                    </div>
+                    <div class="mt-5">
+                        <iframe  width="90%" height="600px;" allowfullscreen="" class="resp-iframe" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.5007860523824!2d31.342618684884034!3d30.079840981869523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583e1af2d120ef%3A0xd96e4358127745f1!2z2LPZhdin2LHYqiDYs9mI2YTZitmI2LTZhtiyINis2LHZiNioINmE2YTYqNix2YXYrNmK2KfYqg!5e0!3m2!1sar!2seg!4v1531128379857" __idm_frm__="983"></iframe>
+                    </div>
+                    
+            </div>
+
+        </div>
+
+
+    </div>
+    <div id="footer" class="mt-5">
+            <div class="container text-center pt-4">
+                        
+                    <span>&copy;Copyright 2019<b>Smart-Solution.</b>  All Rights Reserved</span>
+            </div>
+    </div>
+
+    
+    
+
+
+
+
+    <script src="jquery/jq.js"></script>
+    <script src="jquery/jquery.mixitup.min.js"></script>
+    <script src="jquery/slider.js"></script>
+    <script src="jquery/lightslider.js"></script>
+    
+    
+</body>
+</html>
